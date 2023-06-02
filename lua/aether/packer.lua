@@ -70,4 +70,6 @@ use 'AlexvZyl/nordic.nvim'
 
 use "EdenEast/nightfox.nvim" 
 
+use 'mfussenegger/nvim-dap'
+
 end)
