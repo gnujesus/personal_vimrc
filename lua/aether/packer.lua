@@ -60,7 +60,7 @@ use 'm4xshen/autoclose.nvim'
 use {
     "terrortylor/nvim-comment",
 
-    config = function() 
+    config = function()
         require('nvim_comment').setup()
     end,
 
@@ -68,8 +68,11 @@ use {
 
 use 'AlexvZyl/nordic.nvim'
 
-use "EdenEast/nightfox.nvim" 
+use "EdenEast/nightfox.nvim"
 
 use 'mfussenegger/nvim-dap'
 
+use 'vimwiki/vimwiki'
+
 end)
+
