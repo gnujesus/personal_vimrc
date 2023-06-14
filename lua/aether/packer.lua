@@ -93,8 +93,7 @@ return require('packer').startup(function(use)
     }
 
     use 'lervag/vimtex'
-
-    -- install without yarn or npm
+-- install without yarn or npm
     use({
         "iamcco/markdown-preview.nvim",
         run = function() vim.fn["mkdp#util#install"]() end,
@@ -107,5 +106,6 @@ return require('packer').startup(function(use)
       -- install jsregexp (optional!:).
       run = "make install_jsregexp"
     })
+
 
 end)

@@ -28,6 +28,9 @@ vim.opt.isfname:append("@-@")
 
 vim.opt.updatetime = 50
 
+
+-- Tex
 vim.opt.colorcolumn = "80"
 vim.g.tex_flavor = 'latex'
 vim.g.vimtex_view_general_viewer = 'okular'
+
