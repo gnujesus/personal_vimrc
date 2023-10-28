@@ -65,7 +65,7 @@ s({trig=";g", snippetType="autosnippet"},
 
 -- Begin and End Statement
 
-s({trig="env", snippetType="autosnippet"},
+s({trig=";env", snippetType="autosnippet"},
   fmta(
     [[
       \begin{<>}

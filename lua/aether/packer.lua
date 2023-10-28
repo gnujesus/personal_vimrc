@@ -39,7 +39,7 @@ return require('packer').startup(function(use)
                 end,
             },
             { 'williamboman/mason-lspconfig.nvim' }, -- Optional
-
+    
             -- Autocompletion
             { 'hrsh7th/nvim-cmp' }, -- Required
             { 'hrsh7th/cmp-nvim-lsp' }, -- Required
@@ -47,12 +47,12 @@ return require('packer').startup(function(use)
         }
     }
 
-    use {
-        "andrewferrier/wrapping.nvim",
-        config = function()
-            require("wrapping").setup()
-        end,
-    }
+    -- use {
+    --     "andrewferrier/wrapping.nvim",
+    --     config = function()
+    --         require("wrapping").setup()
+    --     end,
+    -- }
 
 
     use 'm4xshen/autoclose.nvim'
@@ -60,11 +60,11 @@ return require('packer').startup(function(use)
 
     use {
         "terrortylor/nvim-comment",
-
+    
         config = function()
             require('nvim_comment').setup()
         end,
-
+    
     }
 
     use 'AlexvZyl/nordic.nvim'
@@ -107,5 +107,6 @@ return require('packer').startup(function(use)
       run = "make install_jsregexp"
     })
 
-
+    use 'mfussenegger/nvim-jdtls'
 end)
+
